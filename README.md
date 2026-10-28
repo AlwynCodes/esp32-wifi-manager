@@ -15,7 +15,7 @@
 | 1 | Incorrect password | ESP32 fails to connect, remains in the captive portal until the 3-minute timeout, then reboots. |
 | 2 | Reset saved credentials | Holding BOOT for 3–5 s wipes the NVS-stored credentials; the `ESP32-Setup` access point reappears on the phone. |
 | 3 | Change portal name | Editing the `WiFiManager` setup string and re-uploading changes the broadcasted SSID. |
-| 4 | Connect to a new network | After reset, entering the correct credentials for **PLDTHOMEFIBRE** yields a successful connection with IP `192.168.1.17`. |
+| 4 | Connect to a new network | After reset, entering the correct credentials for **TP-LINK_DA20** yields a successful connection with IP `192.168.0.100`. |
 
 ---
 
